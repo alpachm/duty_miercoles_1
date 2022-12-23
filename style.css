@@ -56,6 +56,10 @@ header {
     width: 100%;
 }
 
+header .logo {
+    cursor: pointer;
+}
+
 header .icon__menu {
     cursor: pointer;
     position: relative;
@@ -335,10 +339,10 @@ footer .icons svg {
     }
 
     header .desktop {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: space-between;
-        gap: 1rem;
+        position: relative;
+        height: auto;
+        width: auto;
+        background: var(--blueBg);
     }
 
     header .desktop a {
